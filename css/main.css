@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Kavoon|Roboto+Condensed');
+
+*{
+    
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+a {
+     text-decoration: none ;
+    color: #000;
+  }
+a:hover
+  {
+    text-decoration:none;
+    cursor:pointer;
+   }
+
+header{
+    padding: 10px 0;
+    border-bottom: 3px #7d97ad solid;
+    margin-bottom: 10px;
+}
+
+header img{
+    width: 80px;
+    max-width: 100%;
+}
+
+.info{
+    float: right;
+}
+
+.info h1{
+    margin: 0 0 5px;
+    font-family: 'Kavoon', cursive;
+}
+
+.info h3{
+    margin: 0;
+    text-align: right;
+}
+
+.featwork{
+    color: #7d97ad;
+    font-size: 35px;
+}
+
+.project h2{
+    margin: 5px 0;
+}
+
+@media screen and (min-width: 500px){
+    .info h1{
+        font-size: 45px;
+    }
+}
